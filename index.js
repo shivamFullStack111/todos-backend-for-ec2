@@ -70,6 +70,9 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send({ success: true, message: "Serverr is running on port 8000" });
 });
+app.get("/up", (req, res) => {
+  res.send({ success: true, message: "up is running on port 8000" });
+});
 
 // ✅ API: Get all todos
 // app.get("/get-all", (req, res) => {
