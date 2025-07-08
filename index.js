@@ -70,7 +70,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send({ success: true, message: "Serverr is running on port 8000" });
 });
-app.get("/up", (req, res) => {
+app.get("/api", (req, res) => {
   res.send({ success: true, message: "up is running on port 8000" });
 });
 
