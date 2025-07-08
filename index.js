@@ -68,7 +68,7 @@ app.use(cors());
 
 // API: Health check
 app.get("/", (req, res) => {
-  res.send({ success: true, message: "Server is running on port 8000" });
+  res.send({ success: true, message: "Serverr is running on port 8000" });
 });
 
 // ✅ API: Get all todos
